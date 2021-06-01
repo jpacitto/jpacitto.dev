@@ -35,7 +35,7 @@ function Footer()
                     </div>
                 </div>
                 <div className="footer-creation">
-                    Created with React in Boston 👨‍💻
+                    built using React.js by yours truely 👨‍💻
                 </div>
             </div>
 
