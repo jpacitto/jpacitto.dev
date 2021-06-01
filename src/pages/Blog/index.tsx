@@ -3,6 +3,7 @@ import './Blog.css';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
+
 function Blog()
 {
     return (

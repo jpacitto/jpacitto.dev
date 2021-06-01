@@ -4,10 +4,12 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
+import LoadingScreen from './pages/LoadingScreen';
 
 function App() {
   return (
     <div className="App">
+      <LoadingScreen />
       <BrowserRouter>
         <Switch>
 
