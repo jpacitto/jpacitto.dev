@@ -1,0 +1,65 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    /* background-color: #748191; */
+}
+
+.footer-wrapper {
+    position: relative;
+    width: 400px;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+}
+
+.footer-link:hover {
+    cursor: pointer;
+}
+
+.link-icon {
+    background-color: #EAE8E8;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.github-icon {
+    background-image: url('../../res/img/icons/github.png');
+}
+
+.email-icon {
+    background-image: url('../../res/img/icons/email.png');
+}
+
+.twitter-icon {
+    background-image: url('../../res/img/icons/twitter.png');
+}
+
+.linkedin-icon {
+    background-image: url('../../res/img/icons/linkedin.png');
+}
+
+.footer-creation {
+    text-align: center;
+    margin-top: 20px;
+}

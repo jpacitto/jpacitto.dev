@@ -1,0 +1,34 @@
+.about {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-wrapper {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 375px;
+    height: 375px;
+    background-image: url('../../res/img/profile/profile_image.jpg');
+    border-radius: 100%;
+    border: 5px solid #EAE8E8;
+}
+
+.about-info {
+    padding: 40px;
+    font-size: 20px;
+}
