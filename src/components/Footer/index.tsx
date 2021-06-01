@@ -33,6 +33,11 @@ function Footer()
                             <div className="icon twitter-icon"></div>
                         </div>
                     </div>
+                    <div className="footer-link" onClick={(e) => handleClick(e, "https://www.instagram.com/adventuresbyjoe/")}>
+                        <div className="link-icon">
+                            <div className="icon instagram-icon"></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="footer-creation">
                     built using React.js by yours truely 👨‍💻

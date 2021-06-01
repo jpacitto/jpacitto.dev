@@ -59,6 +59,10 @@
     background-image: url('../../res/img/icons/linkedin.png');
 }
 
+.instagram-icon {
+    background-image: url('../../res/img/icons/instagram.png');
+}
+
 .footer-creation {
     text-align: center;
     margin-top: 20px;
