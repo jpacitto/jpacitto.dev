@@ -35,7 +35,7 @@ function Footer()
                     </div>
                 </div>
                 <div className="footer-creation">
-                    Created by me for me and me
+                    Created with React in Boston 👨‍💻
                 </div>
             </div>
 
