@@ -63,3 +63,27 @@
     text-align: center;
     margin-top: 20px;
 }
+
+@media only screen
+    and (max-width: 580px)
+{
+    .footer-wrapper {
+        padding: 0px;
+        margin-top: -12px;
+    }
+
+    .footer-creation {
+        margin-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .link-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .icon {
+        width: 15px;
+        height: 15px;
+    }
+}
